@@ -1,0 +1,225 @@
+body {
+  margin: auto;
+  padding: auto;
+}
+
+div {
+  margin: 3px;
+  padding: 2px;
+  /*   border: 0.1px dotted rgba(0, 0, 0, 0.3); */
+}
+
+.foaie {
+  background-image: linear-gradient(to bottom right, #b2ef9b, #daff7d, #fcddbc);
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.lista > input {
+  font-size: 300%;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+}
+
+.magazin > input[type="text"] {
+  font-size: 200%;
+  background-color: transparent;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
+input:not([type="checkbox"]):not([value="adauga"]) {
+  background-color: transparent;
+  border: transparent;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.produs > input[type="text"] {
+  font-style: italic;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
+input[type="text"]:focus {
+  color: rgb(4, 161, 154);
+}
+
+.produs > input[type="number"] {
+  width: 35px;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
+/* cod optional de joaca */
+
+.produs > select {
+  font-family: "Dosis", sans-serif;
+}
+
+input[type="button"][value="adauga"] {
+  font-family: "Dosis", sans-serif;
+}
+
+.produs > input[type="text"] {
+  background-color: transparent;
+  border: 0;
+}
+
+.produs > input[type="number"] {
+  background-color: transparent;
+  border: 0;
+  width: 50px;
+}
+
+.produs > input[type="button"] {
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* .produs > input[type="button"]:hover {
+  background-color: lightgray;
+  border: 0;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 50px;
+}
+
+.produs > input[type="button"]:active {
+  background-color: lightgray;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: red;
+} */
+
+.produs > select {
+  background-color: transparent;
+  border: 0;
+  font-weight: bold;
+}
+
+.produs > select:focus {
+  background-color: rgb(224, 255, 175);
+  border: 0.2px solid black;
+  font-weight: bold;
+}
+
+/* .adauga > input[type="button"] {
+  background-color: transparent;
+  border: 0;
+  font-weight: bold;
+}
+
+.magazin > input[type="button"] {
+  background-color: transparent;
+  border: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.magazin > input[type="button"]:hover {
+  background-color: lightgray;
+  border: 0;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 50px;
+}
+
+.magazin > input[type="button"]:active {
+  background-color: lightgray;
+  border: 0;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: red;
+} */
+
+.total {
+  display: grid;
+  justify-content: center;
+}
+
+.final > input[type="text"] {
+  width: 350px;
+}
+
+.final > input[type="button"] {
+  margin-left: 10px;
+  padding-bottom: 3px;
+}
+
+.finalul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.produs {
+  text-align: center;
+}
+
+.adauga {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.adauga > input[type="text"] {
+  width: 62%;
+}
+
+.titlu > input[type="text"] {
+  text-align: center;
+}
+
+.titlu > input[type="text"]:hover {
+  text-align: center;
+  font-weight: lighter;
+}
+
+/* .adauga > input[type="button"] {
+  margin-left: 3px;
+  padding-bottom: 2px;
+} */
+
+/* .adauga > input[type="button"]:hover {
+  border-radius: 50px;
+  background-color: lightgray;
+  font-weight: lighter;
+}
+
+.adauga > input[type="button"]:active {
+  border-radius: 50px;
+  background-color: lightgray;
+  color: red;
+} */
+
+.total {
+  margin-top: 30px;
+}
+
+.lista > input:hover {
+  font-weight: lighter;
+}
+
+.btn-titlu {
+  background-color: transparent;
+  border: transparent;
+  color: #dc3545;
+}
+
+.form-select {
+  width: 85px;
+  display: inline-block;
+}
