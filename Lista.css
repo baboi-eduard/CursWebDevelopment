@@ -22,6 +22,7 @@ div {
   text-align: center;
   font-family: "Dosis", sans-serif;
   font-weight: bolder;
+  width: 600px;
 }
 
 .magazin > input[type="text"] {
